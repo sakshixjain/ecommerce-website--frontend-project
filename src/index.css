@@ -1,0 +1,489 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .bd{
+        background-color: rgb(246, 253, 253);
+            background-image: url(images/Memorial_Weekend_DesktopBanner_1800x800_2.webp);
+            background-position:left;
+            background-repeat: no-repeat;
+            background-size:cover;
+            margin-top: 99px;
+            height:600px;
+            
+    }
+    .header{
+        display: flex;
+       justify-content:space-evenly;
+       text-align: center;
+       font-size: 22px;
+      font-weight: 600;
+       background-color:  #263745;
+       color: white;
+       padding: 25px;
+       z-index: 2;
+    }
+    .inside{
+        display: flex;
+        justify-content:flex-end;
+        text-align: right;
+        margin: 50px;
+    }
+    .latest1:hover{
+     
+        /* background-image: url(/public/latest1.webp); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:310px;  
+    }
+    .gifts img{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .gifts:hover img{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        /* z-index: 2; */
+    }
+    .gifts:hover h1{
+        color: darkred;
+    }
+    
+    .shop{
+     
+        background-color: rgb(238, 186, 56);
+        color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 25px;
+        font-size: 19px;
+        font-weight: 700; 
+       &:hover{
+        background-color: white;
+    }
+    }
+    .shopping{
+        background-color: rgb(233, 183, 57);
+        color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 25px;
+        font-size: 19px;
+        margin-top: 100px;
+        font-weight: 700;
+         
+    }
+   
+    .section{
+        /* margin-bottom: 75px; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+        font-family:inherit;
+        color: #263745;
+        
+    }
+    .shop1{
+        background-color: #263745;
+        color: white;
+        padding: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 25px;
+        border: none;
+        font-size: 19px;
+        font-weight: 600;
+        margin-top: 90px;
+     
+    }
+    .shop1:hover {
+       
+        background-color: white;
+        color:#263745 ;
+        border: 2px solid #263745 ;
+    }
+    fieldset{
+        margin: 0;
+        padding: 0;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    #image {
+        display: flex;
+        padding: 5px;
+        margin: 35px;
+        justify-content:space-evenly;
+     
+    }
+    .container{
+        font-size: 17px;
+            text-align: left;
+            padding: 20px 16px;
+    }
+    .polard{
+        border-radius: 30px;
+        height: 440px; 
+        width: 320px;
+        background-color: white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+    .polard1{
+        border-radius: 30px;
+        height: 440px; 
+        width: 320px;
+        background-color: white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+    .polard2{
+        border-radius: 30px;
+        height: 440px; 
+        width: 320px;
+        background-color: white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 90px;
+    }
+    #image2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px;
+        justify-content:space-evenly;
+    }
+    .imag fieldset img{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .imag:hover fieldset img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        /* z-index: 2; */
+    }
+    .imag:hover .shop-img{
+        background-color: white;
+        color:#263745 ;
+        border: 3px solid #263745 ;
+    }
+    .section2{
+        margin: 125px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .review{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #image{
+        display: flex;
+        margin: 35px;
+          justify-content:space-evenly;
+        height: 300px;
+        
+    }
+    .boxer{
+        margin-top: 150px;
+        background-color:#263745 ;
+        height: 700px;
+        color: #fff;
+    }
+    .boxer1{
+        margin-top: 170px;
+        /* background-color:#263745 ;
+        height: 200px;
+        color: #fff; */
+    }
+    .bx {   
+        outline: none !important;
+        text-decoration: none; 
+        position: relative;
+        transition: 0.2s;
+      }
+      .bx:after  {    
+        background: none repeat scroll 0 0 transparent;
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        background: #fff;
+        transition: ease-in 0.2s;
+        left: 0;
+        bottom: 0;
+        width: 0;
+      }
+      .bx:hover,
+    .bx:focus {
+        text-decoration: underline;
+    }
+    
+    #box{
+        margin-top: 90px;
+        background-color: rgb(235, 206, 168);
+        height: 350px;
+    }
+    #input{
+        display: flex;
+        justify-content: center;
+        text-align: center;  
+    }
+    .inputi{
+        font-size: 18px;
+        width: 440px;
+        padding: 19px;
+       border: none;
+       border-radius: 30px;
+       margin: 15px;
+       outline: none; 
+    }
+    .inputl{
+        font-size: 18px;
+        width: 440px;
+        padding: 12px;
+       border: none;
+       align-items: center;
+       border-radius: 15px;
+     margin-top: 9px;
+       outline: none; 
+    }
+    .inputs{
+        font-size: 18px;
+        width: 480px;
+        padding: 12px;
+       border: none;
+       border-bottom: 2px solid #263745;
+       align-items: center;
+       outline: none; 
+    }
+  
+    .label{
+        font-size: 20px;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        margin-top: 15px;
+    }
+    .shop2{
+        background-color: #263745;
+        color: white;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 30px;
+        border: none;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 15px;
+    }
+    .shop2:hover{
+        
+        background-color: white;
+        color:#263745 ;
+        border: 3px solid #263745 ;
+    }
+    .shopl{
+        background-color: #263745;
+        color: white;
+        width: 430px;
+        border-radius: 30px;
+        border: none;
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+    .shopl:hover{  
+        background-color: white;
+        color:#263745 ;
+        border: 3px solid #263745 ;
+    }
+    .foot-panel{ 
+        background-color:#263745 ;
+        color: white;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    
+      .foot-panel2{
+        background-color:#263745 ;
+        color: white;
+        height: 155px;
+      }
+      .shop3{
+        background-color:white ;
+        color: #263745;
+        padding: 10px;
+        padding-left: 27px;
+        padding-right: 27px;
+        border-radius: 30px;
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 15px; margin-left: 80px;
+     
+    }
+    .shop4{ 
+        /* display: flex; */
+        justify-content: end;
+        align-items: right;
+        background-color:#dbe2e9 ;
+        color: black;
+        padding: 15px;
+        padding-left: 27px;
+        padding-right: 27px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: 500;
+        margin: 15px;
+ 
+    }
+    
+    .icon p{
+        display: flex;
+       font-size: 20px;
+    }
+    .ic{ 
+        justify-content:right;
+         font-size: 20px;
+        margin-right: 40px;
+        align-items:end;
+    }
+   .h1:hover {
+        color: rgb(148, 3, 3);
+    }
+    .shop-img{
+        background-color: #263745;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        
+    }
+    .receipe{
+        
+       position: relative;
+
+    }
+    figure {
+        width: 550px;
+        height: 400px; 
+        margin: 0;
+        padding: 0;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+       top: -130px;  
+    }
+ 
+    .receipe figure img {
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .receipe:hover figure img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        /* z-index: 2; */
+    }
+    .receipe:hover .bx{
+        text-decoration: underline;
+    }
+
+    /* pretzel page */
+
+.box1{
+    
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+    .box2{
+         display: flex;
+         justify-content: end;
+        align-items: end;
+        margin-left: auto;
+        height: 100%;
+        width: 1100px;
+        border: 2px solid black;
+      
+    }
+  
+
+                  /* Search page */
+
+                    
+    .side-bar.open {
+        right: 0;
+      }
+      .x{
+            justify-content: end;
+            align-items: right;
+            background-color:#263745 ;
+            color: rgb(255, 251, 251);
+            padding: 15px;
+            padding-left: 17px;
+            padding-right: 17px;
+            border-radius: 50%;
+            font-size: 17px;
+            font-weight: 500;
+            margin: 15px;
+     
+      }
+      .skeleton {
+        background-color: #e0e0e0;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .skeleton::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -150%;
+        height: 100%;
+        width: 150%;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 0.5) 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        animation: shimmer 1.5s infinite;
+      }
+      
+      /* KEYFRAMES  */
+
+      @keyframes shimmer {
+        0% {
+          left: -150%;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+      

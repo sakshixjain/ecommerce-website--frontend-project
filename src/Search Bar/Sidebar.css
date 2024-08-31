@@ -1,0 +1,35 @@
+.side-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  transition: right 0.3s ease;
+  overflow-x: hidden;
+  
+}
+
+.side-bar.open {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+  right: 0;
+  transition: width 2s;
+}
+
+.side-bar a {
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.toggle{
+  z-index:1;
+  position: absolute;
+  right: 24px;
+  top: 22px;
+  }
+
+ 

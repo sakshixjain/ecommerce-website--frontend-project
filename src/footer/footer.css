@@ -1,0 +1,45 @@
+ul{
+    /* margin-left: 40px;
+   margin-right: 40px; */
+   margin-top: 50px;
+}
+ul a {
+   display: block;
+   font-size: 19px;
+   margin-top: 15px;
+}
+ul p{
+   font-size: 22px;
+   font-weight: 550;
+}
+li { 
+   display: table-cell; 
+   position: relative; 
+ }
+ a {   
+   outline: none !important;
+   position: relative;
+   transition: 0.2s;
+ }
+ a:after {    
+   background: none repeat scroll 0 0 transparent;
+   content: "";
+   display: block;
+   height: 2px;
+   position: absolute;
+   background: #fff;
+   transition:  0.2s;
+   left: 0;
+   bottom: 0;
+   width: 0;
+ }
+ .a:hover {
+inline-size: auto;
+}
+ a:hover::after{ 
+   width: 100%; 
+ }
+ .reset-all {
+    all: unset;
+  }
+  

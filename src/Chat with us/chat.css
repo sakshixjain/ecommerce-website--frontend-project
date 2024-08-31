@@ -1,0 +1,134 @@
+.shop4{ 
+    /* display: flex; */
+    justify-content: end;
+    align-items: right;
+    background-color:#dbe2e9 ;
+    color: black;
+    padding: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px;
+
+}
+
+.x{
+    justify-content: end;
+    align-items: right;
+    background-color:#263745 ;
+    color: rgb(255, 251, 251);
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.chat_paper{
+    height: 460px;
+    width: 410px;
+   /* overflow-y: auto; */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+  bottom: 0;
+  outline: #263745;
+}
+
+.inputc{
+    font-size: 18px;
+    width: 280px;
+    padding: 7px; 
+    margin-left: 10px;
+    margin-top: 10px;
+   /* margin: 15px; */
+   outline-color:lightgrey;
+
+}
+
+ .chatp p:hover {
+    background-color: #263745;
+    color: white;
+  
+}
+
+.skeleton {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skeleton::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -150%;
+    height: 100%;
+    width: 150%;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    animation: shimmer 1.5s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      left: -150%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  .chat_content {
+    padding: 10px;
+    max-height: 400px; /* Adjust this value as needed */
+    overflow-y: auto;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+  
+  /* Scrollbar styling */
+  .chat_content::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+  
+  .chat_content::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Add a transition for smooth color change */
+  }
+  
+  /* Scrollbar thumb animation on hover */
+  .chat_content::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Scrollbar thumb animation on active */
+  .chat_content::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Scrollbar thumb animation on scroll */
+  .chat_content::-webkit-scrollbar-thumb {
+    animation: scrollbarThumbAnim 1s ease infinite alternate;
+  }
+  
+  @keyframes scrollbarThumbAnim {
+    0% {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  

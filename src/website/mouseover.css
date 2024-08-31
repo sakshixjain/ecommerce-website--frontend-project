@@ -1,0 +1,186 @@
+.mouseOver{
+    height: 440px;
+   width: 320px;
+   border-radius: 25px;
+   transform: scale(1); 
+}
+.mouseOver.polard{
+    height: 440px;
+    width: 320px;
+       border-radius: 25px;
+    transform: scale(1); 
+
+}
+.mouseOver.polard1{
+    height: 440px;
+width: 320px;  
+border-radius: 25px;
+transform: scale(1); 
+}
+#image div:hover .c1 {
+    visibility: hidden;
+  }
+
+  .pretzel div:hover .p1{
+visibility: hidden;
+}
+
+.polard3.mouseOver{
+    height: 440px;
+   width: 320px;
+   border-radius: 25px;
+   transform: scale(1); 
+
+}
+#image2 div:hover .c3{
+    visibility: hidden;
+  }
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+ 
+  background-color: #f1f1f1; /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for the color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color when hovered */
+}
+
+/* Scrollbar animation */
+@keyframes scrollbarFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  animation: scrollbarFade 1.5s ease-in-out;
+}
+
+body {
+  scrollbar-color: #888 #f1f1f1; /* For Firefox */
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* For smoother scrolling on the page */
+html {
+  scroll-behavior: smooth;
+}
+/* Slide in from the left */
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide in from the right */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the slide animation */
+  .slide-in-left {
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  .slide-in-right {
+    animation: slideInRight 1s ease-in-out;
+  }
+
+/* Add these styles to your mouseover.css or a relevant CSS file */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animationn {
+    animation: fadeInUp 1s ease-out;
+  }
+  .animationn {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .animationn.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* image scroll bar */
+
+  /* AnimatedGallery.css */
+.image-gallery-container {
+  /* overflow-x:hidden; */
+ padding: 15px;
+  width: 380px; /* Adjust to match image width */
+  height: 450px; /* Adjust to match image height */
+  position: relative;
+}
+
+.image-gallery {
+  display: flex;
+  transform: translateX(0%);
+}
+
+.image-item {
+  padding: 15px;
+  min-width: 100%; /* Each item takes up the full width */
+  transition: transform 0.5s ease;
+   border-radius: 1.5rem;
+}
+
+.image-scroll {
+  width: 100%;
+  height: 100%;
+}
+
+.caption {
+
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+}
+
+.start-animation {
+  animation: scroll 5s linear infinite;
+}
+.paused {
+  animation: none;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

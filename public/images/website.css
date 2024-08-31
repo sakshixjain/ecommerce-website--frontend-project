@@ -1,0 +1,234 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box ;    
+}
+/* body{
+        background-image: url(/Memorial_Weekend_DesktopBanner_1800x800_2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        height:650px;
+        
+} */
+.header{
+    display: flex;
+   justify-content:space-evenly;
+   text-align: center;
+   font-size: 23px;
+  font-weight: 600;
+   background-color:  #263745;
+   color: white;
+   padding: 28px;
+  
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.inside{
+    display: flex;
+    justify-content:flex-end;
+    text-align: right;
+    margin: 50px;
+}
+
+
+.shop{
+    background-color: rgb(250, 206, 96);
+    border: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.shop:hover{
+    opacity: 0.9;
+}
+.section{
+    /* margin: 15px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(52, 45, 99);
+    
+}
+.shop1{
+    background-color: rgb(26, 34, 71);
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.shop1:hover{
+    background-color: white;
+    color:rgb(26, 34, 71) ;
+    border: 2px solid rgb(26, 34, 71) ;
+}
+#image{
+    display: flex;
+    padding: 15px;
+    margin: 35px;
+      justify-content:space-evenly;
+    height: 300px;
+}
+.section2{
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#image{
+    display: flex;
+    padding: 15px;
+    margin: 35px;
+      justify-content:space-evenly;
+    height: 300px;
+    
+}
+#box{
+    margin-top: 50px;
+    background-color: rgb(235, 206, 168);
+    height: 300px;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+input{
+    font-size: 18px;
+    width: 340px;
+    padding: 17px;
+   border: none;
+   border-radius: 30px;
+   margin: 15px;
+   outline: none;
+   
+   
+}
+.shop2{
+    background-color: rgb(26, 34, 71);
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px;
+}
+.shop2:hover{
+    background-color: white;
+    color:rgb(26, 34, 71) ;
+    border: 2px solid rgb(26, 34, 71) ;
+}
+.foot-panel{ 
+    background-color:#263745 ;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+     /* margin-left: 40px;
+    margin-right: 40px; */
+    margin-top: 50px;
+}
+ul a {
+    display: block;
+    font-size: 19px;
+    margin-top: 15px;
+}
+ul p{
+    font-size: 22px;
+    font-weight: 550;
+}
+li { 
+    display: table-cell; 
+    position: relative; 
+  }
+  a {   
+    outline: none !important;
+    text-decoration: none; 
+    position: relative;
+    transition: 0.2s;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    background: #fff;
+    transition:  0.2s;
+    left: 0;
+    bottom: 0;
+    width: 0;
+  }
+  .a:hover,
+.a:focus {
+	color: #4c2be2;
+}
+  a:hover::after,
+  .a:focus::after { 
+    width: 100%; 
+  }
+
+  .foot-panel2{
+    background-color:#263745 ;
+    color: white;
+    height: 155px;
+  }
+  .shop3{
+    background-color:white ;
+    color: rgb(26, 34, 71);
+    padding: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px;
+ 
+}
+.shop4{ text-align: right;
+    background-color:white ;
+    color: rgb(26, 34, 71);
+    padding: 12px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.icon{
+    display: flex;
+   font-size: 20px;
+}
+.ic{ 
+    display:flex;
+    justify-content:right;
+     font-size: 20px;
+    margin-right: 40px;
+    text-align:right;
+}
