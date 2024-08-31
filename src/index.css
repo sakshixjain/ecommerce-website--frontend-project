@@ -4,7 +4,7 @@
 
     .bd{
         background-color: rgb(246, 253, 253);
-            background-image: url(images/Memorial_Weekend_DesktopBanner_1800x800_2.webp);
+            background-image: url(public/images/Memorial_Weekend_DesktopBanner_1800x800_2.webp);
             background-position:left;
             background-repeat: no-repeat;
             background-size:cover;
