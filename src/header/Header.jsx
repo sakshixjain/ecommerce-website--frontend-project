@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link,NavLink ,useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -22,62 +22,76 @@ const Header = () => {
     <>
       <nav className='fixed top-0 left-0 right-0 z-20'>
         <div className="header">
-          <Link to="/" className="block duration-200 flex items-center mr-36 lg:border-0 hover:text-orange-300 lg:p-0">
-            <i className="fa-solid fa-radio"></i>
-          </Link>
+          <NavLink to="/"  className="block  duration-200 
+             mr-36 "   >
+          <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px'}}>
+           EASTERN STANDARD <br />
+           <span style={{fontFamily:'inherit',fontWeight:'600', fontSize:'32px'}}> PROVISIONS </span>
+           </p>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/Pretzels"
-            className="block py-2 pr-4 pl-3 duration-200 text-grey-700 hover:text-orange-300 lg:p-0"
-          >
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
+          ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
+             }>
             Pretzels
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/Waffles"
-            className="block py-2 pr-4 pl-3 duration-200 text-grey-700 hover:text-orange-300 lg:p-0"
-          >
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
+          ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
+             }>
             Waffles
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/Sauce&Toppings"
-            className="block py-2 pr-4 pl-3 duration-200 text-grey-700 hover:text-orange-300 lg:p-0"
-          >
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
+          ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
+             }>
             Sauce & Toppings
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/GiftBoxes"
-            className="block py-2 pr-4 pl-3 duration-200 text-grey-700 hover:text-orange-300 lg:p-0"
-          >
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
+          ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
+             }>
             Gift Boxes
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/Recipes"
-            className="block py-2 pr-4 pl-3 duration-200 text-grey-700 hover:text-orange-300 lg:p-0"
-          >
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
+          ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
+             }>
             Recipes
-          </Link>
+          </NavLink>
 
           <Link
             to="/Login"
-            className="block py-2 ml-20 pr-2 pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
+            className="block py-2 ml-28  pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
           >
             <i className={islogin}></i>
           </Link>
 
           <Link
             to='/Search'
-            className="block py-2 pr-1 pl-1 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
+            className="block py-2 pl-1 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
           >
             <i onClick={toggleSidebar} className="fa-solid fa-magnifying-glass"></i>
           </Link>
 
           <Link
             to="/Shop"
-            className="py-2 pr-4 pl-3 duration-200 flex items-center lg:p-0"
+            className="py-2  pl-3 duration-200 flex items-center lg:p-0"
           >
             <button className="shop">Shop Now</button>
           </Link>
