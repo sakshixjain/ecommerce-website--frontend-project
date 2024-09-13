@@ -7,21 +7,17 @@ ul a {
    display: block;
    font-size: 19px;
    margin-top: 15px;
+     outline: none !important;
+   position: relative;
+   transition: 0.2s; 
 }
 ul p{
+  margin-top: 10px;
    font-size: 22px;
    font-weight: 550;
 }
-li { 
-   display: table-cell; 
-   position: relative; 
- }
- a {   
-   outline: none !important;
-   position: relative;
-   transition: 0.2s;
- }
- a:after {    
+
+ul a:after {    
    background: none repeat scroll 0 0 transparent;
    content: "";
    display: block;
@@ -33,8 +29,9 @@ li {
    bottom: 0;
    width: 0;
  }
- .a:hover {
-inline-size: auto;
+ a:hover {
+  
+inline-size:auto;
 }
  a:hover::after{ 
    width: 100%; 
