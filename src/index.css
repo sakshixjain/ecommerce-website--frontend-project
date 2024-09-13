@@ -20,7 +20,7 @@
       font-weight: 600;
        background-color:  #263745;
        color: white;
-       padding: 25px;
+       padding: 20px;
        z-index: 2;
     }
     .inside{
@@ -31,7 +31,6 @@
     }
     .latest1:hover{
      
-        /* background-image: url(/public/latest1.webp); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -52,8 +51,7 @@
         color: darkred;
     }
     
-    .shop{
-     
+    .shop{  
         background-color: rgb(238, 186, 56);
         color: black;
         border: none;
@@ -103,14 +101,14 @@
         font-size: 19px;
         font-weight: 600;
         margin-top: 90px;
-     
-    }
-    .shop1:hover {
+      &:hover {
        
         background-color: white;
         color:#263745 ;
         border: 2px solid #263745 ;
     }
+    }
+   
     fieldset{
         margin: 0;
         padding: 0;
@@ -201,9 +199,6 @@
     }
     .boxer1{
         margin-top: 170px;
-        /* background-color:#263745 ;
-        height: 200px;
-        color: #fff; */
     }
     .bx {   
         outline: none !important;
@@ -217,7 +212,7 @@
         display: block;
         height: 2px;
         position: absolute;
-        background: #fff;
+        /* background: #fff; */
         transition: ease-in 0.2s;
         left: 0;
         bottom: 0;
@@ -225,7 +220,7 @@
       }
       .bx:hover,
     .bx:focus {
-        text-decoration: underline;
+        color: antiquewhite;
     }
     
     #box{
@@ -284,13 +279,14 @@
         font-size: 22px;
         font-weight: 500;
         margin: 15px;
-    }
-    .shop2:hover{
+    &:hover{
         
         background-color: white;
         color:#263745 ;
         border: 3px solid #263745 ;
+    } 
     }
+   
     .shopl{
         background-color: #263745;
         color: white;
@@ -301,12 +297,13 @@
         font-size: 22px;
         font-weight: 500;
         margin-top: 25px;
-    }
-    .shopl:hover{  
+      &:hover{  
         background-color: white;
         color:#263745 ;
         border: 3px solid #263745 ;
+    } 
     }
+ 
     .foot-panel{ 
         background-color:#263745 ;
         color: white;
@@ -316,7 +313,6 @@
         
     }
 
-    
       .foot-panel2{
         background-color:#263745 ;
         color: white;
@@ -408,7 +404,7 @@
         /* z-index: 2; */
     }
     .receipe:hover .bx{
-        text-decoration: underline;
+        color: antiquewhite;
     }
 
     /* pretzel page */
