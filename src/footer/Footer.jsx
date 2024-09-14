@@ -32,6 +32,7 @@ function Footer() {
        <a>Contact Us</a>
        <a><i className="fa-solid fa-phone-volume"></i> 857-347-4438</a>
        <a><i className="fa-regular fa-envelope"></i> hello@esprovisions.com</a>
+       <button className="shop3"> <i className="fa-solid fa-universal-access"></i> Accessibility</button>
    </ul>
    </div>
    <div>
@@ -63,9 +64,9 @@ function Footer() {
      <ul>
        <p>Accounts</p>
        <a>My Accounts</a>
-         <a>Subscribe To Our Email List</a>
+         <a>Subscribe To Our Email <br />List</a>
          <a>Unsubscribe</a>
-         <a>Sign Up For Our Text Alerts</a>
+         <a>Sign Up For Our Text <br /> Alerts</a>
          <a>Send A Gift Messages</a>
      </ul>
    </div>
@@ -81,12 +82,13 @@ function Footer() {
      </ul>
      </div>
    </div>
+   
    <div className="foot-panel2">
-   <button className="shop3"> <i className="fa-solid fa-universal-access"></i> Accessibility</button>
+
    
    <hr style={{ marginLeft: '80px', marginRight: '80px' }} />
    <div className="icon">
-          <p>2024 Eastern Standard Provisions</p>
+          <p className='icon-p'>2024 Eastern Standard Provisions</p>
        <i className="fa-brands fa-instagram ic"></i>
        <i className="fa-brands fa-x-twitter ic"></i>
        <i className="fa-brands fa-facebook ic"></i>
