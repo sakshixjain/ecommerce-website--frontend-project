@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;  
 
-    .bd{
+.bd{
         background-color: rgb(246, 253, 253);
             background-image: url(/images/Memorial_Weekend_DesktopBanner_1800x800_2.webp);
             background-position:left;
@@ -12,6 +12,7 @@
             height:600px;
             
     }
+    
     .header{
         display: flex;
        justify-content:space-evenly;
