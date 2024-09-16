@@ -82,19 +82,19 @@ function Footer() {
      </ul>
      </div>
    </div>
-   
+      <hr style={{ marginLeft: '80px', marginRight: '80px' }} />
    <div className="foot-panel2">
 
-   
-   <hr style={{ marginLeft: '80px', marginRight: '80px' }} />
    <div className="icon">
-          <p className='icon-p'>2024 Eastern Standard Provisions</p>
+          
        <i className="fa-brands fa-instagram ic"></i>
        <i className="fa-brands fa-x-twitter ic"></i>
        <i className="fa-brands fa-facebook ic"></i>
        <i className="fa-brands fa-youtube ic"></i>
        <i className="fa-brands fa-linkedin ic"></i>
-   </div>
+      </div> 
+     <p className='icon-p'>2024 Eastern Standard Provisions</p>
+ 
 </div>
 </footer>
 </>
