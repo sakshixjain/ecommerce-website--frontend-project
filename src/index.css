@@ -314,9 +314,11 @@
         
     }
       .foot-panel2{
+         display: flex;
+        justify-content:space-around;
         background-color:#263745 ;
         color: white;
-        height: 120px;
+        height: 100px;
       }
       .shop3{
         background-color:white ;
@@ -349,17 +351,15 @@
     }
     
     .icon-p{
-        text-align: right;
-        margin-top: 20px;
-       margin-right: 80px;
+            text-align: right;
+        margin-top: 40px;
        font-size: 20px;
     }
     .ic{ 
-        justify-content:right;
+          margin-top: 40px;
+        justify-content:left;
          font-size: 20px;
-         margin-left: 80px;
-     
-    text-align: right;
+         margin-left: 40px;
     }
    .h1:hover {
         color: rgb(148, 3, 3);
