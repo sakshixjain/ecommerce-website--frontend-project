@@ -23,7 +23,7 @@ const handleClick = () => {
 
   return (
     <div>
-          <div  className=' text-xs right-12 fixed top-50 bottom-20 z-20'>
+          <div  className=' text-xs right-12 fixed top-50 bottom-16 z-20'>
             <div>
            {showComponent && (
            <Suspense fallback={<Skeleton/>}>
