@@ -25,8 +25,8 @@ const Header = () => {
           <NavLink to="/"  className="block  duration-200 
              mr-36 "   >
           <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px'}}>
-           EASTERN STANDARD <br />
-           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px'}}> PROVISIONS </span>
+           Enjoy your<br />
+           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px'}}>Meal</span>
            </p>
           </NavLink>
 
