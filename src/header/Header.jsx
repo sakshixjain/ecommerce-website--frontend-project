@@ -26,7 +26,7 @@ const Header = () => {
              mr-36 "   >
           <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px'}}>
            EASTERN STANDARD <br />
-           <span style={{fontFamily:'inherit',fontWeight:'600', fontSize:'32px'}}> PROVISIONS </span>
+           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px'}}> PROVISIONS </span>
            </p>
           </NavLink>
 
