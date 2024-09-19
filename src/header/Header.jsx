@@ -23,10 +23,10 @@ const Header = () => {
       <nav className='fixed top-0 left-0 right-0 z-20'>
         <div className="header">
           <NavLink to="/"  className="block  duration-200 
-             mr-36 "   >
+             mr-36 mt-2"   >
           <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px'}}>
            Enjoy your<br />
-           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px'}}>Meal</span>
+           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px',color:'orange'}}>MEAL</span>
            </p>
           </NavLink>
 
