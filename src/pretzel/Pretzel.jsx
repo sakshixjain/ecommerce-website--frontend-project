@@ -41,7 +41,7 @@ function Pretzel() {
 <div className=' polard1'>
      <HoverImage
             initialSrc="/images/pret.webp"
-            hoverSrc="/images/latest3.webp"
+            hoverSrc="/images/waffle-pho.webp"
             className=" rounded-t-2xl object-cover mouseOver3"
           />
     <h1 className="container p1">
