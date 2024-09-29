@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HoverImage from '../website/HoverImage'
 function Waffles() {
   return (
     <div>
