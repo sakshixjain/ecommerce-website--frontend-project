@@ -35,7 +35,10 @@ function Pretzel() {
             className=" rounded-t-2xl object-cover mouseOver3"
           />
     <h1 className="container p1">
-      Sweet & Salty super pack <br/> $99.54
+       Sweet & Salty super pack  &nbsp; &nbsp; &nbsp;  4.8  <i
+            className="fas fa-star"
+            style={{ fontSize: '20px', color: 'yellow' }}
+          ></i> <br /><br/> $99.54
     </h1>
 </div>
 <div className=' polard1'>
@@ -45,7 +48,10 @@ function Pretzel() {
             className=" rounded-t-2xl object-cover mouseOver3"
           />
     <h1 className="container p1">
-      Sweet & Salty super pack <br/> $99.54
+      Sweet & Salty super pack  &nbsp; &nbsp; &nbsp;  4.8  <i
+            className="fas fa-star"
+            style={{ fontSize: '20px', color: 'yellow' }}
+          ></i> <br /><br/> $99.54
     </h1>
 </div>
 <div className='polard1'>
@@ -55,7 +61,10 @@ function Pretzel() {
             className=" rounded-t-lg object-cover mouseOver3"
           />
     <h1 className="container p1">
-      Sweet & Salty super pack <br/> $99.54
+       Sweet & Salty super pack  &nbsp; &nbsp; &nbsp;  4.8  <i
+            className="fas fa-star"
+            style={{ fontSize: '20px', color: 'yellow' }}
+          ></i> <br /><br/> $99.54
     </h1>
 </div> 
 
