@@ -161,7 +161,6 @@
     #image-sauce{
         display: flex;
         flex-wrap: wrap;
-        margin: 10px;
         justify-content:space-evenly;
     }
     .imag fieldset img{
@@ -439,11 +438,9 @@
 
     .box-sauce{
         display: flex;
-        justify-content: end;
-       align-items: end;
        margin-left: auto;
        height: 100%;
-       width: 1000px;
+       width: 950px;
    }
   
 
