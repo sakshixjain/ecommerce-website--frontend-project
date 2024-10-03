@@ -5,7 +5,7 @@ function Gift() {
     <div>
     <h1 className='text-gray-800 text-5xl mt-48 ml-20 text-left justify-center items-center font-bold' >Gift Boxes</h1>
     <p className='ml-20 text-lg mt-4'>The Perfect for any Occasion</p>
-    <div className='box-sauce -mt-40'>
+    <div className='box-sauce w-[950px] -mt-40'>
       <div id='image-sauce'>
     <div className="box-border h-[320px] w-[310px] rounded-3xl text-center imag "
       >
