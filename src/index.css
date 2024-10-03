@@ -9,7 +9,7 @@
             background-repeat: no-repeat;
             background-size:cover;
             margin-top: 89px;
-            height:630px;
+            height:600px;
             
     }
     
@@ -179,9 +179,14 @@
         color:#263745 ;
         border: 3px solid #263745 ;
     }
+    
     .imag:hover .sauce{
         color: rgb(155, 26, 26);
         text-decoration:line-through;
+    }
+    .imag:hover .hov{
+        color:rgb(148, 3, 3) ;
+        text-decoration: line-through;
     }
     .section2{
         margin: 125px;
@@ -371,6 +376,7 @@
    .h1:hover {
         color: rgb(148, 3, 3);
     }
+ 
     .shop-img{
         background-color: #263745;
         justify-content: center;
@@ -440,7 +446,7 @@
         display: flex;
        margin-left: auto;
        height: 100%;
-       width: 950px;
+       
    }
   
 
