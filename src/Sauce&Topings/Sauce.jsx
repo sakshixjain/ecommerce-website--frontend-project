@@ -6,7 +6,7 @@ function Sauce() {
     <div>
       <h1 className='text-gray-800 text-5xl mt-48 ml-20 text-left justify-center items-center font-bold' >Sauces & Toppings</h1>
       <p className='ml-20 text-lg mt-4'>Artfully blended gourmet sauces and toppings.</p>
-      <div className='box-sauce -mt-40'>
+      <div className='box-sauce w-[950px] -mt-40'>
         <div id='image-sauce'>
       <div className="box-border h-[310px] w-[310px] rounded-3xl text-center imag "
         >
