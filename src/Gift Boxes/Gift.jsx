@@ -12,7 +12,7 @@ function Gift() {
         <fieldset>
           <img
             src="/images/giftbox1.webp"
-            className="h-[320px] w-[310px] rounded-3xl"
+            className="h-[250px] w-[270px] rounded-3xl"
           />
         </fieldset>
         <h1 className="text-xl -mt-4 text-left text-blue-950 font-semibold  sauce p-5">Happy Birthday</h1>
@@ -23,7 +23,7 @@ function Gift() {
         <fieldset>
           <img
             src="/images/giftbox2.webp"
-            className="h-[320px] w-[310px] rounded-3xl"
+            className="h-[250px] w-[270px] rounded-3xl"
           />
         </fieldset>
         <h1 className="text-xl -mt-4 text-left text-blue-950 font-semibold  sauce p-5">Thankyou</h1>
@@ -35,7 +35,7 @@ function Gift() {
         <fieldset>
           <img
             src="/images/giftbox3.webp"
-            className="h-[320px] w-[310px] rounded-3xl"
+            className="h-[250px] w-[270px] rounded-3xl"
           />
         </fieldset>
         <h1 className="text-xl -mt-4 text-left text-blue-950 font-semibold  sauce p-5">Congratulations</h1>
