@@ -141,6 +141,47 @@ function Recipes() {
             Instructions: Preheat oven to 400°F. Coat small (about 2½ cup) oven-proof baking dish with cooking spray. Beat cream cheese in a large bowl with electric mixer until light and airy, about 2 minutes. Add 1/2 cup
             </h1>    
       </div>
+        <div className="box-border h-[300px] w-[460px] mb-80 rounded-3xl text-center imag"
+      >
+        <fieldset>
+          <img
+            src="/images/recipe1.webp"
+            className="h-[300px] w-[460px] rounded-3xl "
+          />
+        </fieldset>
+        <h1 className="text-xl text-left mt-5 ml-2 relative">
+              <i className="fa-solid fa-cake-candles"></i> 25 September, 2024
+            </h1>
+            <br />
+            <h1 className="text-3xl font-bold hov text-slate-800 text-left  relative " >
+            Pumpkin Marshmallow Espresso Martini
+            </h1>
+            <br />
+            <h1 className="text-[20px] overflow-hidden text-ellipsis relative">
+            Directions Place pumpkin, marshmallow in glass, make espresso over and stir. In shaker with ice, pour over mixed flavored espresso, vodka and shake. Rim
+            </h1>
+      </div>
+      <div className="box-border h-[300px] w-[460px] mb-80 rounded-3xl text-center imag"
+      >
+        <fieldset>
+          <img
+            src="/images/recipe1.webp"
+            className="h-[300px] w-[460px] rounded-3xl "
+          />
+        </fieldset>
+        <h1 className="text-xl text-left mt-5 ml-2 relative">
+              <i className="fa-solid fa-cake-candles"></i> 25 September, 2024
+            </h1>
+            <br />
+            <h1 className="text-3xl font-bold hov text-slate-800 text-left  relative " >
+            Pumpkin Marshmallow Espresso Martini
+            </h1>
+            <br />
+            <h1 className="text-[20px] overflow-hidden text-ellipsis relative">
+            Directions Place pumpkin, marshmallow in glass, make espresso over and stir. In shaker with ice, pour over mixed flavored espresso, vodka and shake. Rim
+            </h1>
+      </div>
+      
 </div>
     </div>
 
