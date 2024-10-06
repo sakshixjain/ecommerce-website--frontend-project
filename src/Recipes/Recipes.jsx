@@ -145,7 +145,7 @@ function Recipes() {
       >
         <fieldset>
           <img
-            src="/images/recipe1.webp"
+            src="/images/recipe7.webp"
             className="h-[300px] w-[460px] rounded-3xl "
           />
         </fieldset>
@@ -165,7 +165,7 @@ function Recipes() {
       >
         <fieldset>
           <img
-            src="/images/recipe1.webp"
+            src="/images/recipe8.webp"
             className="h-[300px] w-[460px] rounded-3xl "
           />
         </fieldset>
