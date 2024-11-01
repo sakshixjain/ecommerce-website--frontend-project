@@ -1,3 +1,18 @@
-{
-  
+@media (max-width:1000px){
+
+
+    .inside{
+        display: none;
+    }
+    .header .respon{
+        display: none;
+    }
+   .header .ham{
+        display: block;
+    }
+    .shop{
+        justify-content: end;
+        align-items: end;
+    }
+
 }
