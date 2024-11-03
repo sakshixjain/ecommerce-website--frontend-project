@@ -14,5 +14,11 @@
         justify-content: end;
         align-items: end;
     }
+    /* .boxer #image{
+        display: inline;
+    } */
 
+    #image .polard{
+        flex-wrap: wrap;
+    }
 }
