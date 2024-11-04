@@ -20,21 +20,20 @@ const Header = () => {
 
   return (
       <>
-    <header>
-      <nav className='top-0 z-20'>
+      <nav className='fixed top-0 left-0 right-0 z-20'>
         <div className="header">
           <NavLink to="/"  className="block  duration-200 
              mr-36 "   >
-          <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px'}}>
-           EASTERN STANDARD <br />
-           <span style={{fontFamily:'inherit',fontWeight:'600', fontSize:'32px'}}> PROVISIONS </span>
+          <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px',marginTop:'2px'}}>
+           Enjoy your<br />
+           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px',color:'orange'}}>MEAL</span>
            </p>
           </NavLink>
 
           <NavLink
             to="/Pretzels"
-            className= {({isActive}) => 
-              `respon block py-2 pr-4 pl-3 duration-200 
+            className= {({isActive}) =>
+              `block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Pretzels
@@ -43,7 +42,7 @@ const Header = () => {
           <NavLink
             to="/Waffles"
             className= {({isActive}) =>
-              `respon block py-2 pr-4 pl-3 duration-200 
+              `block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Waffles
@@ -52,7 +51,7 @@ const Header = () => {
           <NavLink
             to="/Sauce&Toppings"
             className= {({isActive}) =>
-              `respon block py-2 pr-4 pl-3 duration-200 
+              `block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
              }>
             Sauce & Toppings
@@ -61,7 +60,7 @@ const Header = () => {
           <NavLink
             to="/GiftBoxes"
             className= {({isActive}) =>
-              `respon block py-2 pr-4 pl-3 duration-200 
+              `block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
              }>
             Gift Boxes
@@ -70,7 +69,7 @@ const Header = () => {
           <NavLink
             to="/Recipes"
             className= {({isActive}) =>
-              `respon block py-2 pr-4 pl-3 duration-200 
+              `block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Recipes
@@ -78,7 +77,7 @@ const Header = () => {
 
           <Link
             to="/Login"
-            className="respon block py-2 ml-28  pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
+            className="block py-2 ml-28  pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
           >
             <i className={islogin}></i>
           </Link>
@@ -89,19 +88,14 @@ const Header = () => {
           >
             <i onClick={toggleSidebar} className="fa-solid fa-magnifying-glass"></i>
           </Link>
-          
           <Link
             to="/Shop"
             className="py-2  pl-3 duration-200 flex items-center lg:p-0"
           >
-
             <button className="shop">Shop Now</button>
-          </Link>
-          <Link className="ham none py-2 pl-[450px] duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0" > <i className=" fa fa-reorder" ></i>
           </Link>
         </div>
       </nav>
-      </header>
     </>
   );
 }
