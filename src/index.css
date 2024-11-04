@@ -13,6 +13,12 @@
             
     }
     
+  nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+   }
     .header{
         display: flex;
        justify-content:space-evenly;
@@ -22,7 +28,6 @@
        background-color:  #263745;
        color: white;
        padding: 9px;
-       z-index: 2;
     }
     .inside{
         display: flex;
