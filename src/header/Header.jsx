@@ -33,7 +33,7 @@ const Header = () => {
           <NavLink
             to="/Pretzels"
             className= {({isActive}) =>
-              `block py-2 pr-4 pl-3 duration-200 
+              `respon block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Pretzels
@@ -42,7 +42,7 @@ const Header = () => {
           <NavLink
             to="/Waffles"
             className= {({isActive}) =>
-              `block py-2 pr-4 pl-3 duration-200 
+              `respon block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Waffles
@@ -51,7 +51,7 @@ const Header = () => {
           <NavLink
             to="/Sauce&Toppings"
             className= {({isActive}) =>
-              `block py-2 pr-4 pl-3 duration-200 
+              `respon block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
              }>
             Sauce & Toppings
@@ -60,7 +60,7 @@ const Header = () => {
           <NavLink
             to="/GiftBoxes"
             className= {({isActive}) =>
-              `block py-2 pr-4 pl-3 duration-200 
+              `respon block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center  hover:text-orange-300 lg:p-0`
              }>
             Gift Boxes
@@ -69,7 +69,7 @@ const Header = () => {
           <NavLink
             to="/Recipes"
             className= {({isActive}) =>
-              `block py-2 pr-4 pl-3 duration-200 
+              `respon block py-2 pr-4 pl-3 duration-200 
           ${isActive ? "text-orange-300": "text-grey-700"} block duration-200 flex items-center hover:text-orange-300 lg:p-0`
              }>
             Recipes
@@ -77,7 +77,7 @@ const Header = () => {
 
           <Link
             to="/Login"
-            className="block py-2 ml-28  pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
+            className="respon block py-2 ml-28  pl-2 duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0"
           >
             <i className={islogin}></i>
           </Link>
