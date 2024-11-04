@@ -1,13 +1,16 @@
 @media (max-width:1000px){
-
-
+     nav{
+        position: absolute;
+     }
+     
+    
     .inside{
         display: none;
     }
     .header .respon{
         display: none;
     }
-   .header .ham{
+    .ham{
         display: block;
     }
     .shop{
@@ -21,4 +24,5 @@
     #image .polard{
         flex-wrap: wrap;
     }
+
 }
