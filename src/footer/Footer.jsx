@@ -93,6 +93,14 @@ function Footer() {
        <i className="fa-brands fa-youtube ic"></i>
        <i className="fa-brands fa-linkedin ic"></i>
       </div> 
+ <div to="/"  className="hidden foot-resp duration-200 
+             mr-36 "   >
+          <p style={{fontFamily:'inherit', fontWeight:'100', fontSize:'16px',marginTop:'2px'}}>
+           Enjoy your<br />
+           <span style={{fontFamily:'inherit',fontWeight:'500', fontSize:'30px',color:'orange'}}>MEAL</span>
+           </p>
+          </div>
+     
      <p className='icon-p icon-para'>2024 Eastern Standard Provisions</p>
  
 </div>
