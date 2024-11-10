@@ -20,6 +20,7 @@ const Header = () => {
 
   return (
       <>
+        <header>
       <nav className='top-0 z-20'>
         <div className="header">
           <NavLink to="/"  className="block  duration-200 
@@ -98,6 +99,7 @@ const Header = () => {
           </Link>
         </div>
       </nav>
+      </header>
     </>
   );
 }
