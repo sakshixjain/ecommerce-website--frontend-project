@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
       <>
-      <nav className='fixed top-0 left-0 right-0 z-20'>
+      <nav className='top-0 z-20'>
         <div className="header">
           <NavLink to="/"  className="block  duration-200 
              mr-36 "   >
@@ -93,6 +93,8 @@ const Header = () => {
             className="py-2  pl-3 duration-200 flex items-center lg:p-0"
           >
             <button className="shop">Shop Now</button>
+          </Link>
+            <Link className="ham none py-2 pl-[450px] duration-200 flex items-center lg:border-0 hover:text-orange-300 lg:p-0" > <i className=" fa fa-reorder" ></i>
           </Link>
         </div>
       </nav>
