@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;  
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
 .bd{
         background-color: rgb(246, 253, 253);
             background-image: url(/images/frontpage.webp);
@@ -9,11 +15,10 @@
             background-repeat: no-repeat;
             background-size:cover;
             margin-top: 89px;
-            height:630px;
+            height:600px;
             
     }
-    
-  nav{
+   nav{
     position: fixed;
     top: 0;
     right: 0;
@@ -191,7 +196,7 @@
     }
     .imag:hover .hov{
         color:rgb(148, 3, 3) ;
-
+        text-decoration: line-through;
     }
     .section2{
         margin: 125px;
