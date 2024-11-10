@@ -93,7 +93,7 @@ function Footer() {
        <i className="fa-brands fa-youtube ic"></i>
        <i className="fa-brands fa-linkedin ic"></i>
       </div> 
-     <p className='icon-p'>2024 Eastern Standard Provisions</p>
+     <p className='icon-p icon-para'>2024 Eastern Standard Provisions</p>
  
 </div>
 </footer>
