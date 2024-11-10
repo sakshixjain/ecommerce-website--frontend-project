@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { Route, createBrowserRouter,createRoutesFromElements, RouterProvider } from 'react-router-dom'
 import Layout from './Layout/Layout.jsx'
 import './index.css';
+import './responsive.css'
 import Pretzel from './pretzel/Pretzel.jsx'
 import Front from './website/Front.jsx'
 import Waffles from './Waffles/Waffles.jsx'
